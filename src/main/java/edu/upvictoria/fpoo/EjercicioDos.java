@@ -37,7 +37,9 @@ public class EjercicioDos {
                 scores[i] = Double.parseDouble(scanner.readLine());
             } catch (IOException | NumberFormatException e) {
                 System.out.println("The number specified is not what is excepted");
-                i--;
+                if (i >= 1) {
+                    i--;
+                }
             }
 
             if (scores[i] < 0) {
