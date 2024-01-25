@@ -25,6 +25,7 @@ public class EjercicioUno {
 
         double n2Double = 0;
         double n1Double = 0;
+
         try {
             n1Double = Double.parseDouble(n1);
             n2Double = Double.parseDouble(n2);
