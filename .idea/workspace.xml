@@ -82,7 +82,7 @@
       <command value="mvn exec:java" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Maven.excec:java">
     <configuration name="EjercicioUnoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="programario_uno" />
       <extension name="coverage">
@@ -98,6 +98,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="excec:java" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="exec:java" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.EjercicioUnoTest" />
+      <item itemvalue="Maven.excec:java" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.EjercicioUnoTest" />
