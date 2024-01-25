@@ -17,15 +17,16 @@ public class EjercicioDos {
         return Math.floor(average * 100) / 100;
     }
 
-    public static void printExerciseInitializer() throws IOException {
+    public static void printExerciseInitializer()  {
         int length = 0;
         BufferedReader scanner = new BufferedReader(new InputStreamReader(System.in));
 
         System.out.println("Enter the number of scores to save");
         try {
             length = Integer.parseInt(scanner.readLine());
-        } catch (InputMismatchException e) {
+        } catch (IOException | NumberFormatException e) {
             System.out.println("The input was not what we excepted");
+            return;
         }
 
         double[] scores = new double[length];
@@ -34,7 +35,7 @@ public class EjercicioDos {
             System.out.println("Enter the score " + i + 1);
             try {
                 scores[i] = Double.parseDouble(scanner.readLine());
-            } catch (InputMismatchException e) {
+            } catch (IOException | NumberFormatException e) {
                 System.out.println("The number specified is not what is excepted");
                 i--;
             }
