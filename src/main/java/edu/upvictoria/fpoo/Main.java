@@ -1,6 +1,5 @@
 package edu.upvictoria.fpoo;
 
-import java.io.IOException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -26,7 +25,7 @@ public class Main {
             }
 
             if (opc >= 1 && opc <= 26) {
-                if (opc == 1) System.out.println("Option 1");
+                if (opc == 1) EjercicioUno.printExerciseInitializer();
                 if (opc == 2) System.out.println("Option 2");
                 if (opc == 3) System.out.println("Option 3");
                 if (opc == 4) System.out.println("Option 4");
