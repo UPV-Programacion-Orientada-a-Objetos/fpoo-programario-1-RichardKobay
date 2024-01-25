@@ -1,7 +1,9 @@
 package edu.upvictoria.fpoo;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.InputMismatchException;
-import java.util.Scanner;
 
 public class EjercicioDos {
 
@@ -10,17 +12,18 @@ public class EjercicioDos {
         for(double score : scores)
             average += score;
 
-        average = average / 4;
+        average = average / length;
 
-        return average;
+        return Math.floor(average * 100) / 100;
     }
 
-    public static void printExerciseInitializer() {
+    public static void printExerciseInitializer() throws IOException {
         int length = 0;
-        Scanner scanner = new Scanner(System.in);
+        BufferedReader scanner = new BufferedReader(new InputStreamReader(System.in));
+
         System.out.println("Enter the number of scores to save");
         try {
-            length = scanner.nextInt();
+            length = Integer.parseInt(scanner.readLine());
         } catch (InputMismatchException e) {
             System.out.println("The input was not what we excepted");
         }
@@ -30,9 +33,14 @@ public class EjercicioDos {
         for (int i = 0; i < scores.length; i++) {
             System.out.println("Enter the score " + i + 1);
             try {
-                scores[i] = scanner.nextDouble();
+                scores[i] = Double.parseDouble(scanner.readLine());
             } catch (InputMismatchException e) {
                 System.out.println("The number specified is not what is excepted");
+                i--;
+            }
+
+            if (scores[i] < 0) {
+                System.out.println("You cannot enter a negative number");
                 i--;
             }
         }
