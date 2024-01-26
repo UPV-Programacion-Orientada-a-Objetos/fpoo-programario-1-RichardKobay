@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24ef768d-cec4-47bc-a650-f7a7276d1879" name="Changes" comment="Finished EjercicioOnce **NOT TESTED**">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/EjercicioDoce.java" afterDir="false" />
+    <list default="true" id="24ef768d-cec4-47bc-a650-f7a7276d1879" name="Changes" comment="Finished EjercicioDoce **NOT TESTED**">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/EjercicioTrece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +161,7 @@
       <workItem from="1706198250642" duration="746000" />
       <workItem from="1706206888550" duration="628000" />
       <workItem from="1706225784024" duration="895000" />
-      <workItem from="1706226794248" duration="8698000" />
+      <workItem from="1706226794248" duration="9356000" />
     </task>
     <task id="LOCAL-00001" summary="Se genera la estructura básica Maven del repositorio.">
       <created>1685065857556</created>
@@ -257,7 +258,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706239475086</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Finished EjercicioDoce **NOT TESTED**">
+      <option name="closed" value="true" />
+      <created>1706239835096</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1706239835096</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,7 +310,8 @@
     <MESSAGE value="Finished EjercicioNueve **NOT TESTED**" />
     <MESSAGE value="Finished EjercicioDiez **NOT TESTED**" />
     <MESSAGE value="Finished EjercicioOnce **NOT TESTED**" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished EjercicioOnce **NOT TESTED**" />
+    <MESSAGE value="Finished EjercicioDoce **NOT TESTED**" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished EjercicioDoce **NOT TESTED**" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
