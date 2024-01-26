@@ -10,7 +10,7 @@ public class EjercicioCinco {
     }
 
     public static double getFullArea (double a, double b, double c) {
-        double area = 0;
+        double area;
         area = EjercicioTres.getRectangleArea(b, c);
         area = area + getTriangleArea(b, a - c);
         return area;
@@ -18,7 +18,6 @@ public class EjercicioCinco {
 
     public static void printExerciseInitializer() {
         BufferedReader scanner = new BufferedReader(new InputStreamReader(System.in));
-        double area = 0;
         double a = 0;
         double b = 0;
         double c = 0;

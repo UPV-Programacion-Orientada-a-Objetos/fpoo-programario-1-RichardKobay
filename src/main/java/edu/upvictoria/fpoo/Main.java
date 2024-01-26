@@ -24,7 +24,7 @@ public class Main {
                 scanner.nextLine();
             }
 
-            if (opc >= 1 && opc <= 26) {
+            if (opc >= 1 && opc <= 27) {
                 if (opc == 1) EjercicioUno.printExerciseInitializer();
                 if (opc == 2) EjercicioDos.printExerciseInitializer();
                 if (opc == 3) EjercicioTres.printExerciseInitializer();
@@ -51,6 +51,7 @@ public class Main {
                 if (opc == 24) System.out.println("Option 24");
                 if (opc == 25) System.out.println("Option 25");
                 if (opc == 25) System.out.println("Option 26");
+                if (opc == 27) break;
             }
         }
     }
