@@ -1,6 +1,6 @@
 package edu.upvictoria.fpoo;
 
-import edu.upvictoria.fpoo.math.aritmethic.Aritmethic;
+import edu.upvictoria.fpoo.math.Aritmethic;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package edu.upvictoria.fpoo.math.aritmethic;
+package edu.upvictoria.fpoo.math;
 
 public class Aritmethic {
     public int multiply(int a, int b) {return a * b;}
