@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24ef768d-cec4-47bc-a650-f7a7276d1879" name="Changes" comment="Just a Code Refactor to clean warnings">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/EjercicioSeis.java" afterDir="false" />
+    <list default="true" id="24ef768d-cec4-47bc-a650-f7a7276d1879" name="Changes" comment="Added EjercicioSeis to the option menu">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/EjercicioSiete.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -161,7 +161,7 @@
       <workItem from="1706198250642" duration="746000" />
       <workItem from="1706206888550" duration="628000" />
       <workItem from="1706225784024" duration="895000" />
-      <workItem from="1706226794248" duration="2421000" />
+      <workItem from="1706226794248" duration="3551000" />
     </task>
     <task id="LOCAL-00001" summary="Se genera la estructura básica Maven del repositorio.">
       <created>1685065857556</created>
@@ -194,7 +194,23 @@
       <option name="project" value="LOCAL" />
       <updated>1706228852854</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Finished EjercicioSeis **NOT TESTED**">
+      <option name="closed" value="true" />
+      <created>1706229392368</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706229392368</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added EjercicioSeis to the option menu">
+      <option name="closed" value="true" />
+      <created>1706229434462</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706229434462</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +246,9 @@
     <MESSAGE value="Tested EjercicioUno" />
     <MESSAGE value="Finished EjercicioCinco **NOT TESTED**" />
     <MESSAGE value="Just a Code Refactor to clean warnings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Just a Code Refactor to clean warnings" />
+    <MESSAGE value="Finished EjercicioSeis **NOT TESTED**" />
+    <MESSAGE value="Added EjercicioSeis to the option menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added EjercicioSeis to the option menu" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
