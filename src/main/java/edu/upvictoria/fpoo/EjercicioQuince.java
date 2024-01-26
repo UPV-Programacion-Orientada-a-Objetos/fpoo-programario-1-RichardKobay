@@ -5,8 +5,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class EjercicioQuince {
-    public static double getTotalAmount(double amountPerHour, double hours) {
-        return amountPerHour * hours;
+    public static double multiplyTwoNumbers(double n1, double n2) {
+        return n1 * n2;
     }
 
     public static void printExerciseInitializer() {
@@ -24,6 +24,6 @@ public class EjercicioQuince {
             System.out.println("The input was not what we excepted");
         }
 
-        System.out.println("The total amount is: " + getTotalAmount(amountPerHour, hours));
+        System.out.println("The total amount is: " + multiplyTwoNumbers(amountPerHour, hours));
     }
 }
