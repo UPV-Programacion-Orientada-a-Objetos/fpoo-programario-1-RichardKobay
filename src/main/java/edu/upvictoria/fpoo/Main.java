@@ -34,7 +34,7 @@ public class Main {
                 if (opc == 7) EjercicioSiete.printExerciseInitializer();
                 if (opc == 8) EjercicioOcho.printExerciseInitializer();
                 if (opc == 9) EjercicioNueve.printExerciseInitializer();
-                if (opc == 10) System.out.println("Option 10");
+                if (opc == 10) EjercicioDiez.printExerciseInitializer();
                 if (opc == 11) System.out.println("Option 11");
                 if (opc == 12) System.out.println("Option 12");
                 if (opc == 13) System.out.println("Option 13");
