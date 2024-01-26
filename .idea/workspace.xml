@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24ef768d-cec4-47bc-a650-f7a7276d1879" name="Changes" comment="Finished EjercicioDoce **NOT TESTED**">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/EjercicioTrece.java" afterDir="false" />
+    <list default="true" id="24ef768d-cec4-47bc-a650-f7a7276d1879" name="Changes" comment="Finished EjercicioTrece **NOT TESTED**">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/EjercicioCatorce.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,33 +42,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "JUnit.EjercicioUnoTest.executor": "Run",
-    "Maven.excec:java.executor": "Run",
-    "Maven.programario_uno [clean].executor": "Run",
-    "Maven.programario_uno [compile].executor": "Run",
-    "Maven.programario_uno [package].executor": "Run",
-    "Maven.programario_uno [test].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/tmp/programario_1/programario_uno/src/main/java/edu/upvictoria/fpoo/Main.java",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EjercicioUnoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.excec:java.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.programario_uno [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.programario_uno [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.programario_uno [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.programario_uno [test].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/tmp/programario_1/programario_uno/src/main/java/edu/upvictoria/fpoo/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -161,7 +162,8 @@
       <workItem from="1706198250642" duration="746000" />
       <workItem from="1706206888550" duration="628000" />
       <workItem from="1706225784024" duration="895000" />
-      <workItem from="1706226794248" duration="9356000" />
+      <workItem from="1706226794248" duration="10533000" />
+      <workItem from="1706283880204" duration="414000" />
     </task>
     <task id="LOCAL-00001" summary="Se genera la estructura básica Maven del repositorio.">
       <created>1685065857556</created>
@@ -266,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706239835096</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Finished EjercicioTrece **NOT TESTED**">
+      <option name="closed" value="true" />
+      <created>1706240505000</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1706240505000</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +321,8 @@
     <MESSAGE value="Finished EjercicioDiez **NOT TESTED**" />
     <MESSAGE value="Finished EjercicioOnce **NOT TESTED**" />
     <MESSAGE value="Finished EjercicioDoce **NOT TESTED**" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished EjercicioDoce **NOT TESTED**" />
+    <MESSAGE value="Finished EjercicioTrece **NOT TESTED**" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished EjercicioTrece **NOT TESTED**" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

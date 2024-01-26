@@ -38,7 +38,7 @@ public class Main {
                 if (opc == 11) System.out.println("Option 11");
                 if (opc == 12) System.out.println("Option 12");
                 if (opc == 13) System.out.println("Option 13");
-                if (opc == 14) System.out.println("Option 14");
+                if (opc == 14) EjercicioCatorce.printExerciseInitializer();
                 if (opc == 15) System.out.println("Option 15");
                 if (opc == 16) System.out.println("Option 16");
                 if (opc == 17) System.out.println("Option 17");
