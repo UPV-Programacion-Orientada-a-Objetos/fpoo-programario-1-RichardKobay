@@ -29,7 +29,7 @@ public class Main {
                 if (opc == 2) EjercicioDos.printExerciseInitializer();
                 if (opc == 3) EjercicioTres.printExerciseInitializer();
                 if (opc == 4) EjercicioCuatro.printExerciseInitializer();
-                if (opc == 5) System.out.println("Option 5");
+                if (opc == 5) EjercicioCinco.printExerciseInitializer();
                 if (opc == 6) System.out.println("Option 6");
                 if (opc == 7) System.out.println("Option 7");
                 if (opc == 8) System.out.println("Option 8");
