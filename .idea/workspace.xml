@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24ef768d-cec4-47bc-a650-f7a7276d1879" name="Changes" comment="Finished EjercicioSiete **NOT TESTED**">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/EjercicioOcho.java" afterDir="false" />
+    <list default="true" id="24ef768d-cec4-47bc-a650-f7a7276d1879" name="Changes" comment="Added EjercicioSiete and EjercicioOcho to the option menu">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/EjercicioNueve.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -161,7 +161,7 @@
       <workItem from="1706198250642" duration="746000" />
       <workItem from="1706206888550" duration="628000" />
       <workItem from="1706225784024" duration="895000" />
-      <workItem from="1706226794248" duration="4553000" />
+      <workItem from="1706226794248" duration="6119000" />
     </task>
     <task id="LOCAL-00001" summary="Se genera la estructura básica Maven del repositorio.">
       <created>1685065857556</created>
@@ -218,7 +218,23 @@
       <option name="project" value="LOCAL" />
       <updated>1706230557372</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Finished EjercicioOcho **NOT TESTED**">
+      <option name="closed" value="true" />
+      <created>1706234847282</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1706234847282</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added EjercicioSiete and EjercicioOcho to the option menu">
+      <option name="closed" value="true" />
+      <created>1706234912312</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1706234912312</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +273,9 @@
     <MESSAGE value="Finished EjercicioSeis **NOT TESTED**" />
     <MESSAGE value="Added EjercicioSeis to the option menu" />
     <MESSAGE value="Finished EjercicioSiete **NOT TESTED**" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished EjercicioSiete **NOT TESTED**" />
+    <MESSAGE value="Finished EjercicioOcho **NOT TESTED**" />
+    <MESSAGE value="Added EjercicioSiete and EjercicioOcho to the option menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added EjercicioSiete and EjercicioOcho to the option menu" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
