@@ -17,4 +17,20 @@ public class Prices {
         Aritmethic aritmethic = new Aritmethic();
         return initial + aritmethic.getPercentage(initial, percentage);
     }
+
+    public int removePercentage (int initial, int percentage) {
+        Aritmethic aritmethic = new Aritmethic();
+        return initial - aritmethic.getPercentage(initial, percentage);
+    }
+
+    public double removePercentage (double initial, double percentage) {
+        Aritmethic aritmethic = new Aritmethic();
+        return initial - aritmethic.getPercentage(initial, percentage);
+    }
+
+    public float removePercentage (float initial, float percentage) {
+        Aritmethic aritmethic = new Aritmethic();
+        return initial - aritmethic.getPercentage(initial, percentage);
+    }
+
 }
