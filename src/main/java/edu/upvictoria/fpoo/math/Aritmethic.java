@@ -10,4 +10,7 @@ public class Aritmethic {
     public int divide(int a, int b) {return a / b;}
     public double divide(double a, double b) {return a / b;}
     public float divide(float a, float b) {return a / b;}
+    public int getPercentage(int a, int b) {return (a * 100) / b;}
+    public double getPercentage(double a, double b) {return (a * 100) / b;}
+    public float getPercentage(float a, float b) {return (a * 100) / b;}
 }
