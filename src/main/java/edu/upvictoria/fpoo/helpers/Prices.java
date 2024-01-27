@@ -33,4 +33,6 @@ public class Prices {
         return initial - aritmethic.getPercentage(initial, percentage);
     }
 
+    public static class Conversions {
+    }
 }
