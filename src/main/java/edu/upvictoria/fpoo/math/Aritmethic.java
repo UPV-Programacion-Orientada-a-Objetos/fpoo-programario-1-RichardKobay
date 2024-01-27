@@ -7,6 +7,9 @@ public class Aritmethic {
     public int sum(int a, int b) {return a + b;}
     public double sum(double a, double b) {return a + b;}
     public float sum(float a, float b) {return a + b;}
+    public double sum(double a, double b, double c) {return a + b + c;}
+    public double sum(double a, double b, double c, double d) {return a + b + c + d;}
+    public double sum(double a, double b, double c, double d, double e) {return a + b + c + d + e;}
     public int divide(int a, int b) {return a / b;}
     public double divide(double a, double b) {return a / b;}
     public float divide(float a, float b) {return a / b;}
