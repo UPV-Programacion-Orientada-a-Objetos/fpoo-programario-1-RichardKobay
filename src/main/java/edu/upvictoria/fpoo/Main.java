@@ -25,20 +25,20 @@ public class Main {
             }
 
             if (opc >= 1 && opc <= 27) {
-                if (opc == 1) EjercicioUno.printExerciseInitializer();
-                if (opc == 2) EjercicioDos.printExerciseInitializer();
-                if (opc == 3) EjercicioTres.printExerciseInitializer();
-                if (opc == 4) EjercicioCuatro.printExerciseInitializer();
-                if (opc == 5) EjercicioCinco.printExerciseInitializer();
-                if (opc == 6) EjercicioSeis.printExerciseInitializer();
-                if (opc == 7) EjercicioSiete.printExerciseInitializer();
-                if (opc == 8) EjercicioOcho.printExerciseInitializer();
-                if (opc == 9) EjercicioNueve.printExerciseInitializer();
-                if (opc == 10) EjercicioDiez.printExerciseInitializer();
+                if (opc == 1) System.out.println();
+                if (opc == 2) System.out.println();
+                if (opc == 3) System.out.println();
+                if (opc == 4) System.out.println();
+                if (opc == 5) System.out.println();
+                if (opc == 6) System.out.println();
+                if (opc == 7) System.out.println();
+                if (opc == 8) System.out.println();
+                if (opc == 9) System.out.println();
+                if (opc == 10) System.out.println();
                 if (opc == 11) System.out.println("Option 11");
                 if (opc == 12) System.out.println("Option 12");
                 if (opc == 13) System.out.println("Option 13");
-                if (opc == 14) EjercicioCatorce.printExerciseInitializer();
+                if (opc == 14) System.out.println();
                 if (opc == 15) System.out.println("Option 15");
                 if (opc == 16) System.out.println("Option 16");
                 if (opc == 17) System.out.println("Option 17");

@@ -9,7 +9,7 @@ import java.io.InputStreamReader;
 import java.security.GeneralSecurityException;
 
 public class EjercicioDoce {
-    public static void printExerciseInitializer() {
+    public EjercicioDoce() {
         BufferedReader scanner = new BufferedReader(new InputStreamReader(System.in));
         Trigonometry trigonometry = new Trigonometry();
 
