@@ -1,18 +1,16 @@
 package edu.upvictoria.fpoo;
 
+import edu.upvictoria.fpoo.helpers.Conversions;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Locale;
 
 public class EjercicioTrece {
 
-    public static double fromPesosToDollars( double pesos) {
-        return pesos * 0.058;
-    }
-
-    public static void printExerciseInitializer() {
+    public EjercicioTrece() {
         BufferedReader scanner = new BufferedReader(new InputStreamReader(System.in));
+        Conversions conversions = new Conversions();
         double amountInPesos = 0;
 
         try {
@@ -22,6 +20,7 @@ public class EjercicioTrece {
             System.out.println("The input was not what we excepted");
         }
 
-        System.out.println("The amount in dollars is: " + fromPesosToDollars(amountInPesos));
+        System.out.println("The amount in dollars is: " + conversions.pesosToDollars(amountInPesos));
+        System.out.println("Price checked ene 25 2024");
     }
 }

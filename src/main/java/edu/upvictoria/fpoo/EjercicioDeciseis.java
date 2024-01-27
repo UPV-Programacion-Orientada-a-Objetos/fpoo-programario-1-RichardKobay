@@ -1,5 +1,7 @@
 package edu.upvictoria.fpoo;
 
+import edu.upvictoria.fpoo.math.Aritmethic;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -7,6 +9,7 @@ import java.io.InputStreamReader;
 public class EjercicioDeciseis {
     public static void printExerciseInitializer() {
         BufferedReader scanner = new BufferedReader(new InputStreamReader(System.in));
+        Aritmethic aritmethic = new Aritmethic();
         double m2 = 0;
         double paintPrice = 0;
 
@@ -19,6 +22,6 @@ public class EjercicioDeciseis {
             System.out.println("The input was not what we excepted");
         }
 
-        System.out.println("The total price is: " + EjercicioQuince.multiplyTwoNumbers(m2, paintPrice));
+        System.out.println("The total price is: " + aritmethic.multiply(m2, paintPrice));
     }
 }

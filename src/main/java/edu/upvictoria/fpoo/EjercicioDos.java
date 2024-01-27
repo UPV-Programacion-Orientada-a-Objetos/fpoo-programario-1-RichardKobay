@@ -1,25 +1,17 @@
 package edu.upvictoria.fpoo;
 
+import edu.upvictoria.fpoo.math.Aritmethic;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.InputMismatchException;
 
 public class EjercicioDos {
 
-    public static double getAgerage(double[] scores, int length) {
-        double average = 0;
-        for(double score : scores)
-            average += score;
-
-        average = average / length;
-
-        return Math.floor(average * 100) / 100;
-    }
-
-    public static void printExerciseInitializer()  {
-        int length = 0;
+    public void printExerciseInitializer()  {
         BufferedReader scanner = new BufferedReader(new InputStreamReader(System.in));
+        Aritmethic aritmethic = new Aritmethic();
+        int length = 0;
 
         System.out.println("Enter the number of scores to save");
         try {
@@ -37,9 +29,7 @@ public class EjercicioDos {
                 scores[i] = Double.parseDouble(scanner.readLine());
             } catch (IOException | NumberFormatException e) {
                 System.out.println("The number specified is not what is excepted");
-                if (i >= 1) {
-                    i--;
-                }
+                if (i >= 1) i--;
             }
 
             if (scores[i] < 0) {
@@ -48,6 +38,6 @@ public class EjercicioDos {
             }
         }
 
-        System.out.println("The average is: " + getAgerage(scores, length));
+        System.out.println("The average is: " + aritmethic.getAgerage(scores));
     }
 }

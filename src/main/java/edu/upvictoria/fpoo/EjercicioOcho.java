@@ -1,17 +1,15 @@
 package edu.upvictoria.fpoo;
 
+import edu.upvictoria.fpoo.math.GeometricPlane;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class EjercicioOcho {
-
-    public static double getDistance (double x1, double x2, double y1, double y2) {
-        return Math.sqrt(((x2 * x2) - (x1 * x1)) + ((y1 * y1) - (y2 * y2)));
-    }
-
-    public static void printExerciseInitializer() {
+    public EjercicioOcho() {
         BufferedReader scanner = new BufferedReader(new InputStreamReader(System.in));
+        GeometricPlane geometricPlane = new GeometricPlane();
 
         double x1 = 0;
         double x2 = 0;
@@ -31,6 +29,6 @@ public class EjercicioOcho {
             System.out.println("The input was not what we excepted");
         }
 
-        System.out.println("The distance of the two points is: " + getDistance(x1, x2, y1, y2));
+        System.out.println("The distance of the two points is: " + geometricPlane.getDistanceBetweenTwoPoints(x1, x2, y1, y2));
     }
 }

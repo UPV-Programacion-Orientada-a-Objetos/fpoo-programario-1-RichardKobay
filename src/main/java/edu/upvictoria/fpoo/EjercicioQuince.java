@@ -1,16 +1,16 @@
 package edu.upvictoria.fpoo;
 
+import edu.upvictoria.fpoo.math.Aritmethic;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class EjercicioQuince {
-    public static double multiplyTwoNumbers(double n1, double n2) {
-        return n1 * n2;
-    }
 
-    public static void printExerciseInitializer() {
+    public EjercicioQuince() {
         BufferedReader scanner = new BufferedReader(new InputStreamReader(System.in));
+        Aritmethic aritmethic = new Aritmethic();
 
         double amountPerHour = 0;
         double hours = 0;
@@ -24,6 +24,6 @@ public class EjercicioQuince {
             System.out.println("The input was not what we excepted");
         }
 
-        System.out.println("The total amount is: " + multiplyTwoNumbers(amountPerHour, hours));
+        System.out.println("The total amount is: " + aritmethic.multiply(amountPerHour, (int) Math.ceil(hours / 100)));
     }
 }

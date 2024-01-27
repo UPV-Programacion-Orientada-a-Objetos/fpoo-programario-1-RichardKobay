@@ -1,27 +1,14 @@
 package edu.upvictoria.fpoo;
 
+import edu.upvictoria.fpoo.math.Geometry;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class EjercicioTres {
-
-    /**
-     * Get the area of a rectangle
-     * @param b base of the rectangle
-     * @param h height of the rectangle
-     * @return area of a rectangle
-     * */
-    public static double getRectangleArea(double b, double h) {
-        if (b < 0 || h < 0) {
-            System.out.println("One or more of the numbers are negative, we changed its value for its abs val.");
-            b = Math.abs(b);
-            h = Math.abs(h);
-        }
-        return Math.floor((b * h) * 100) / 100;
-    }
-
-    public static void printExerciseInitializer() {
+    public EjercicioTres() {
+        Geometry geometry = new Geometry();
         BufferedReader scanner = new BufferedReader(new InputStreamReader(System.in));
         double base = 0;
         double height = 0;
@@ -36,6 +23,6 @@ public class EjercicioTres {
             return;
         }
 
-        System.out.println("The rectangle area is: " + getRectangleArea(base, height));
+        System.out.println("The rectangle area is: " + geometry.getRectangleArea(base, height));
     }
 }

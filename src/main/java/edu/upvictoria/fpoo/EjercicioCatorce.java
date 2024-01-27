@@ -7,11 +7,11 @@ import java.time.Year;
 
 public class EjercicioCatorce {
 
-    public static int getAge(int currentYear, int birthYear) {
+    public int getAge(int currentYear, int birthYear) {
         return currentYear - birthYear;
     }
 
-    public static void printExerciseInitializer() {
+    public EjercicioCatorce() {
         BufferedReader scanner = new BufferedReader(new InputStreamReader(System.in));
         int year = 0;
 

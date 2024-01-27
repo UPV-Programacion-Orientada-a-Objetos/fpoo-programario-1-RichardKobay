@@ -1,5 +1,6 @@
 package edu.upvictoria.fpoo;
 
+import edu.upvictoria.fpoo.helpers.Payments;
 import edu.upvictoria.fpoo.math.Aritmethic;
 
 import java.io.BufferedReader;
@@ -8,8 +9,8 @@ import java.io.InputStreamReader;
 
 public class EjercicioVeinticinco {
     public EjercicioVeinticinco () {
-        Aritmethic aritmethic = new Aritmethic();
         BufferedReader scanner = new BufferedReader(new InputStreamReader(System.in));
+        Payments payments = new Payments();
 
         double hotelExpenses = 0;
         double foodExpenses = 0;
@@ -29,16 +30,12 @@ public class EjercicioVeinticinco {
             System.out.println("The input was not what we excepted");
         }
 
-        double total = getTotal(hotelExpenses, foodExpenses, otherExpenses, totalOfDays);
+        double total = payments.getTotal(hotelExpenses, foodExpenses, otherExpenses, totalOfDays);
 
         System.out.println("Your ticket is: ");
         System.out.println("Hotel expenses: ---------- " + hotelExpenses);
         System.out.println("Food expenses:  ---------- " + foodExpenses);
         System.out.println("Other expenses: ---------- " + otherExpenses + "x" + totalOfDays);
         System.out.println("Total:          ---------- " + total);
-    }
-
-    public double getTotal(double hotelExpenses, double foodExpenses, double otherExpenses, double totalOfDays) {
-        return hotelExpenses + foodExpenses + (otherExpenses * totalOfDays);
     }
 }
