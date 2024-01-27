@@ -31,7 +31,11 @@ public class EjercicioVeinticinco {
 
         double total = getTotal(hotelExpenses, foodExpenses, otherExpenses, totalOfDays);
 
-        System.out.println("The time will be: " + total);
+        System.out.println("Your ticket is: ");
+        System.out.println("Hotel expenses: ---------- " + hotelExpenses);
+        System.out.println("Food expenses:  ---------- " + foodExpenses);
+        System.out.println("Other expenses: ---------- " + otherExpenses + "x" + totalOfDays);
+        System.out.println("Total:          ---------- " + total);
     }
 
     public double getTotal(double hotelExpenses, double foodExpenses, double otherExpenses, double totalOfDays) {
