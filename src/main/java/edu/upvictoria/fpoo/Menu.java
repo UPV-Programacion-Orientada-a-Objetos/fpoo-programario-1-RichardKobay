@@ -1,11 +1,16 @@
 package edu.upvictoria.fpoo;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.InputMismatchException;
+
 public class Menu {
 
     /**
      * Prints the main menu
      * */
-    public static void printMenu() {
+    public void printMenu() {
         System.out.println("---------------------------------------------------------");
         System.out.println("------------------Seleccione una opción------------------");
         System.out.println("---------------------------------------------------------");
@@ -35,14 +40,115 @@ public class Menu {
         System.out.println("24. Ahorro");
         System.out.println("25. Cheques");
         System.out.println("26. Concepto de monto");
+        System.out.println("27. Salir");
     }
 
     /**
      * Prints the welcome menu
      * */
-    public static void printWelcome() {
+    public void printWelcome() {
         System.out.println("-------------------------------------");
         System.out.println("----Bienvenido al problemario uno----");
         System.out.println("-------------------------------------");
+    }
+
+    public void selectOpc () {
+        BufferedReader scanner = new BufferedReader(new InputStreamReader(System.in));
+        while (true) {
+            int opc = 0;
+            printMenu();
+            try {
+                opc = Integer.parseInt(scanner.readLine());
+            } catch (InputMismatchException | IOException e) {
+                System.out.println();
+                System.out.println();
+                System.out.println("----------------------------------");
+                System.out.println("---------OPCIÓN NO VÁLIDA---------");
+                System.out.println("--------INTÉNTALO DE NUEVO--------");
+                System.out.println("----------------------------------");
+                System.out.println();
+                System.out.println();
+            }
+
+            if (opc >= 1 && opc <= 27) {
+                if (opc == 1) {
+                    EjercicioUno ejercicioUno = new EjercicioUno();
+                }
+                if (opc == 2) {
+                    EjercicioDos ejercicioDos = new EjercicioDos();
+                }
+                if (opc == 3) {
+                    EjercicioTres ejercicioTres = new EjercicioTres();
+                }
+                if (opc == 4) {
+                    EjercicioCuatro ejercicioCuatro = new EjercicioCuatro();
+                }
+                if (opc == 5) {
+                    EjercicioCinco ejercicioCinco = new EjercicioCinco();
+                }
+                if (opc == 6) {
+                    EjercicioSeis ejercicioSeis = new EjercicioSeis();
+                }
+                if (opc == 7) {
+                    EjercicioSiete ejercicioSiete = new EjercicioSiete();
+                }
+                if (opc == 8) {
+                    EjercicioOcho ejercicioOcho = new EjercicioOcho();
+                }
+                if (opc == 9) {
+                    EjercicioNueve ejercicioNueve = new EjercicioNueve();
+                }
+                if (opc == 10) {
+                    EjercicioDiez ejercicioDiez = new EjercicioDiez();
+                }
+                if (opc == 11) {
+                    EjercicioOnce ejercicioOnce = new EjercicioOnce();
+                }
+                if (opc == 12) {
+                    EjercicioDoce ejercicioDoce = new EjercicioDoce();
+                }
+                if (opc == 13) {
+                    EjercicioTrece ejercicioTrece = new EjercicioTrece();
+                }
+                if (opc == 14) {
+                    EjercicioCatorce ejercicioCatorce = new EjercicioCatorce();
+                }
+                if (opc == 15) {
+                    EjercicioQuince ejercicioQuince = new EjercicioQuince();
+                }
+                if (opc == 16) {
+                    EjercicioDeciseis ejercicioDeciseis = new EjercicioDeciseis();
+                }
+                if (opc == 17) {
+                    EjercicioDiecisiete ejercicioDiecisiete = new EjercicioDiecisiete();
+                }
+                if (opc == 18) {
+                    EjercicioDieciocho ejercicioDieciocho = new EjercicioDieciocho();
+                }
+                if (opc == 19) {
+                    EjercicioDiecinueve ejercicioDiecinueve = new EjercicioDiecinueve();
+                }
+                if (opc == 20) {
+                    EjercicioVeinte ejercicioVeinte = new EjercicioVeinte();
+                }
+                if (opc == 21) {
+                    EjercicioVeintuno ejercicioVeintuno = new EjercicioVeintuno();
+                }
+                if (opc == 22) {
+                    EjercicioVeintidos ejercicioVeintidos = new EjercicioVeintidos();
+                }
+                if (opc == 23) {
+                    EjercicioVeintitres ejercicioVeintitres = new EjercicioVeintitres();
+                }
+                if (opc == 24) {
+                    EjercicioVeinticuatro ejercicioVeinticuatro = new EjercicioVeinticuatro();
+                }
+                if (opc == 25) {
+                    EjercicioVeinticinco ejercicioVeinticinco = new EjercicioVeinticinco();
+                }
+                if (opc == 26) System.out.println("Este ejercicio fué solo una modificación del ejercicio 25");
+                if (opc == 27) break;
+            }
+        }
     }
 }

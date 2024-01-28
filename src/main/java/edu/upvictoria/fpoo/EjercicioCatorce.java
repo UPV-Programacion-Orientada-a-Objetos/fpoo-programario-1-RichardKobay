@@ -25,4 +25,7 @@ public class EjercicioCatorce {
         System.out.println("Your age is " + getAge(Year.now().getValue(), year));
     }
 
+    public EjercicioCatorce(boolean test) {
+
+    }
 }

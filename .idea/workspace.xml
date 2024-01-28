@@ -4,11 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24ef768d-cec4-47bc-a650-f7a7276d1879" name="Changes" comment="Eliminated almost all proprietary functions, now all the classes will be needing the helper classes to make all their functionality.&#10;&#10;Also, eliminated all static functions and changed the &quot;initializer&quot; and use the constructor instead.">
+    <list default="true" id="24ef768d-cec4-47bc-a650-f7a7276d1879" name="Changes" comment="Eliminated function on EjercicioDoce">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/helpers/Round.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/upvictoria/fpoo/EjercicioCatorceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/upvictoria/fpoo/EjercicioCincoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/upvictoria/fpoo/EjercicioSeisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/upvictoria/fpoo/helpers/ConaguaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/upvictoria/fpoo/helpers/ConversionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/upvictoria/fpoo/helpers/PaymentsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/upvictoria/fpoo/helpers/PricesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/upvictoria/fpoo/helpers/RoundTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/upvictoria/fpoo/math/AritmethicTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/upvictoria/fpoo/math/GeometricPlaneTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/upvictoria/fpoo/math/GeometryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/upvictoria/fpoo/math/TrigonometryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/EjercicioCatorce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/EjercicioCatorce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/EjercicioCinco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/EjercicioCinco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/EjercicioCuatro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/EjercicioCuatro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/EjercicioDeciseis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/EjercicioDeciseis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/EjercicioDiez.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/EjercicioDiez.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/EjercicioDos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/EjercicioDos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/EjercicioSeis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/EjercicioSeis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/EjercicioVeinticinco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/EjercicioVeinticinco.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/helpers/Conagua.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/helpers/Conagua.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/helpers/Conversions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/helpers/Conversions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/helpers/Payments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/helpers/Payments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/helpers/Prices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/helpers/Prices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/math/Aritmethic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/math/Aritmethic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/math/GeometricPlane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/math/GeometricPlane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/math/Trigonometry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/math/Trigonometry.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +45,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -47,7 +74,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "JUnit.EjercicioUnoTest.executor": "Run",
-    "Maven.excec:java.executor": "Run",
+    "Maven.excec:java.executor": "Debug",
     "Maven.programario_uno [clean].executor": "Run",
     "Maven.programario_uno [compile].executor": "Run",
     "Maven.programario_uno [package].executor": "Run",
@@ -75,8 +102,13 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="edu.upvictoria.fpoo.helpers" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="edu.upvictoria.fpoo" />
+      <recent name="edu.upvictoria.fpoo.math" />
+      <recent name="edu.upvictoria.fpoo.helpers" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -166,7 +198,7 @@
       <workItem from="1706225784024" duration="895000" />
       <workItem from="1706226794248" duration="10533000" />
       <workItem from="1706283880204" duration="5057000" />
-      <workItem from="1706312835302" duration="10785000" />
+      <workItem from="1706312835302" duration="29998000" />
     </task>
     <task id="LOCAL-00001" summary="Se genera la estructura básica Maven del repositorio.">
       <created>1685065857556</created>
@@ -463,7 +495,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706323319152</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Eliminated function on EjercicioDoce">
+      <option name="closed" value="true" />
+      <created>1706324173527</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1706324173527</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -493,7 +533,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Finished EjercicioOnce **NOT TESTED**" />
     <MESSAGE value="Finished EjercicioDoce **NOT TESTED**" />
     <MESSAGE value="Finished EjercicioTrece **NOT TESTED**" />
     <MESSAGE value="Finished EjercicioCatorce **NOT TESTED**" />
@@ -518,7 +557,24 @@
     <MESSAGE value="Added JetBrains Annotations in Dependencies" />
     <MESSAGE value="Modified All helpers.&#10;&#10;Added more functionality to all helpers to provide more readable code, now all the exercises will need to import these classes to use its functionalities, and changed all the functions to eliminate the static." />
     <MESSAGE value="Eliminated almost all proprietary functions, now all the classes will be needing the helper classes to make all their functionality.&#10;&#10;Also, eliminated all static functions and changed the &quot;initializer&quot; and use the constructor instead." />
-    <option name="LAST_COMMIT_MESSAGE" value="Eliminated almost all proprietary functions, now all the classes will be needing the helper classes to make all their functionality.&#10;&#10;Also, eliminated all static functions and changed the &quot;initializer&quot; and use the constructor instead." />
+    <MESSAGE value="Eliminated function on EjercicioDoce" />
+    <option name="LAST_COMMIT_MESSAGE" value="Eliminated function on EjercicioDoce" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/EjercicioCinco.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/edu/upvictoria/fpoo/EjercicioSeis.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

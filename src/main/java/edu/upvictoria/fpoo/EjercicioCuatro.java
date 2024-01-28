@@ -7,7 +7,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class EjercicioCuatro {
-    public static void printExerciseInitializer() {
+    public EjercicioCuatro (boolean test) {}
+
+    public EjercicioCuatro () {
         BufferedReader scanner = new BufferedReader(new InputStreamReader(System.in));
         Geometry geometry = new Geometry();
         double circleArea = 0;

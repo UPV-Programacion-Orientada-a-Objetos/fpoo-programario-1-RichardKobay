@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class EjercicioDeciseis {
-    public static void printExerciseInitializer() {
+    public EjercicioDeciseis() {
         BufferedReader scanner = new BufferedReader(new InputStreamReader(System.in));
         Aritmethic aritmethic = new Aritmethic();
         double m2 = 0;

@@ -9,6 +9,8 @@ import java.io.InputStreamReader;
 
 public class EjercicioSeis {
 
+    public EjercicioSeis(boolean test) {}
+
     public EjercicioSeis() {
         BufferedReader scanner = new BufferedReader(new InputStreamReader(System.in));
         double h = 0;
@@ -30,8 +32,8 @@ public class EjercicioSeis {
         Trigonometry trigonometry = new Trigonometry();
         Geometry geometry = new Geometry();
         double area;
-        area = trigonometry.getTriangleArea(r, h) * 2;
-        area = area + geometry.getCircleArea(r) / 2;
+        area = (geometry.getCircleArea(r) / 2);
+        area = area + trigonometry.getTriangleArea(r, h) * 2;
         return area;
     }
 }

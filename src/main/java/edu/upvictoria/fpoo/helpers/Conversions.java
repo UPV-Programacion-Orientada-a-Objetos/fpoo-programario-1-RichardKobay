@@ -6,10 +6,12 @@ public class Conversions {
     }
 
     public double metersToInches(double m) {
-        return m * 0.0254;
+        Round round = new Round();
+        return round.roundTwoDecimals(m * 0.0254);
     }
 
     public double pesosToDollars(double pesos) {
-        return pesos * 0.058;
+        Round round = new Round();
+        return round.roundTwoDecimals(pesos * 0.058);
     }
 }

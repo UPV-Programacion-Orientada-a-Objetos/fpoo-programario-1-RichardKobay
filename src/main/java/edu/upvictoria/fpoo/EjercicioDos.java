@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
 
 public class EjercicioDos {
 
-    public void printExerciseInitializer()  {
+    public EjercicioDos()  {
         BufferedReader scanner = new BufferedReader(new InputStreamReader(System.in));
         Aritmethic aritmethic = new Aritmethic();
         int length = 0;

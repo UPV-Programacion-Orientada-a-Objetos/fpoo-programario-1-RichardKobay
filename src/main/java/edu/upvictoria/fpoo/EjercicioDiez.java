@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class EjercicioDiez {
-    public static void printExerciseInitializer() {
+    public EjercicioDiez() {
         BufferedReader scanner = new BufferedReader(new InputStreamReader(System.in));
         Conversions conversions = new Conversions();
         double meters = 0;

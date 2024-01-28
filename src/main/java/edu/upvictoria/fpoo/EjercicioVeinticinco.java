@@ -15,7 +15,7 @@ public class EjercicioVeinticinco {
         double hotelExpenses = 0;
         double foodExpenses = 0;
         double otherExpenses = 0;
-        double totalOfDays = 0;
+        int totalOfDays = 0;
 
         try {
             System.out.println("Give me the hotel expenses:");
@@ -25,7 +25,7 @@ public class EjercicioVeinticinco {
             System.out.println("Give me the other expenses (per day):");
             otherExpenses = Double.parseDouble(scanner.readLine());
             System.out.println("Give me the total of days:");
-            totalOfDays = Double.parseDouble(scanner.readLine());
+            totalOfDays = Integer.parseInt(scanner.readLine());
         } catch (IOException | NumberFormatException e) {
             System.out.println("The input was not what we excepted");
         }
